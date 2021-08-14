@@ -217,11 +217,11 @@ const Board = () => {
   };
   const handleChange = (e) => {
     let value = e.target.value;
-    if (value == "BEGINNER") {
+    if (value === "BEGINNER") {
       setSpeed(Speed.BEGINNER);
 
     }
-    else if (value == "INTERMEDIATE") {
+    else if (value === "INTERMEDIATE") {
       setSpeed(Speed.INTERMEDIATE)
     }
     else {
